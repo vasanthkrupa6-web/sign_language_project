@@ -1,0 +1,13 @@
+\textbf{InsightForge AI -- AI-Powered Personal Data Science Assistant}
+
+\textit{Python, FastAPI, Pandas, Data Analysis}
+
+\begin{itemize}
+    \item Developed an AI-powered data analysis application supporting \textbf{4 core capabilities}: dataset upload, data profiling, data quality analysis, and dataset health analysis.
+    
+    \item Designed FastAPI backend APIs to process uploaded datasets and support end-to-end analytical workflows.
+    
+    \item Integrated data processing and analysis components to generate structured insights into dataset quality, missing values, and overall data health.
+    
+    \item Streamlined data exploration by converting uploaded datasets into actionable analytical insights for faster dataset understanding.
+\end{itemize}

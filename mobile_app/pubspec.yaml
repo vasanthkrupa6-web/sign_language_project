@@ -1,0 +1,31 @@
+name: mobile_app
+description: "A Flutter sign language recognition application."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  tflite_flutter: ^0.12.1
+  camera: 0.12.0+2
+  camera_android_camerax: 0.7.4+6
+  hand_landmarker: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/dynamic_sign_model.tflite
+    - assets/labels.txt
