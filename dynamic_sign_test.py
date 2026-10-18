@@ -61,7 +61,9 @@ phrases = {
     "bye": "Bye, See you again.",
     "yes": "Yes.",
     "no": "No.",
-    "where": "Where is this Place?"
+    "where": "Where is this Place?",
+    "drink": "I am Thirsty, i need to drink water.",
+    "phone": "May i use your Phone?"
 }
 
 

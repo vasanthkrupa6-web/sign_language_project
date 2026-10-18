@@ -4,7 +4,7 @@ emergency
 hello
 hungry
 no
-sleep
+phone
 sorry
 thankyou
 toilets

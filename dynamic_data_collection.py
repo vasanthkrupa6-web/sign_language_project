@@ -11,7 +11,7 @@ import time
 
 DATASET_PATH = "dynamic_dataset"
 
-SIGN_NAME = "drink"
+SIGN_NAME = "phone"
 
 NUM_SAMPLES = 100
 
@@ -111,7 +111,7 @@ if not cap.isOpened():
 print("\nInstructions:")
 print("1. Press SPACE to start recording.")
 print("2. Wait for 3-second countdown.")
-print("3. Perform the DRINK gesture naturally.")
+print("3. Perform the PHONE gesture naturally.")
 print("4. The system records 30 valid frames.")
 print("5. Press Q to quit.")
 print()
@@ -301,7 +301,7 @@ while sample_count < NUM_SAMPLES:
 
         cv2.putText(
             frame,
-            "PERFORM DRINK GESTURE",
+            "PERFORM PHONE GESTURE",
             (20, 80),
             cv2.FONT_HERSHEY_SIMPLEX,
             0.7,
